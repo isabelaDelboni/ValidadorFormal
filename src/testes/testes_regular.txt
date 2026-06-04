@@ -1,0 +1,8 @@
+@"
+123.456.789-00|aceito
+000.000.000-00|aceito
+987.654.321-99|aceito
+12.34.56-78|rejeitado
+1234.456.789-00|rejeitado
+123.456.789-0|rejeitado
+"@ | Set-Content -Encoding UTF8 testes\testes_regular.txt

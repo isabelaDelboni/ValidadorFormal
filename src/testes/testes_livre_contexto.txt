@@ -1,0 +1,8 @@
+@"
+((x+y)*z)|aceito
+{a[b+c]*d}|aceito
+([{}])|aceito
+((a+b)|rejeitado
+([)]|rejeitado
+{[}]|rejeitado
+"@ | Set-Content -Encoding UTF8 testes\testes_livre_contexto.txt

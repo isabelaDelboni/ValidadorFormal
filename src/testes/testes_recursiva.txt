@@ -1,0 +1,7 @@
+@"
+101#101|aceito
+0#0|aceito
+101#100|rejeitado
+10#101|rejeitado
+0#1|rejeitado
+"@ | Set-Content -Encoding UTF8 testes\testes_recursiva.txt
